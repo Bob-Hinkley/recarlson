@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-right {
+    display: none;
+}
+
+.navbar-item {
+    color: #000000;
+    padding: 10px;
+}
+
+.navbar-item:hover {
+    color: #58d5f7;
+    text-decoration: none;
+}
+
+.main-background {
+    overflow: none;
+    position: relative;
+}
+
+.main-img {
+    position: absolute;
+    width: 100%;
+    max-height: 900px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+
+.bold {
+    font-weight: 600;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.header {
+    padding-top: 35px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    z-index: 999;
+}
+
+.logo {
+    max-width: 150px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+
+
+.main {
+    position: relative;
+    z-index: 999;
+    padding-bottom: 60px;
+}
+
+
+.main-right {
+    color: #fff;
+    text-align: center;
+    /*margin-right: 200px;*/
+}
+
+.ipad {
+    display: none;
+}
+
+.ipad-screen {
+    display: none;
+}
+
+.header-headline {
+    padding-top: 0;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.header-running-text {
+    text-align: center;
+    max-width: 287px;
+    line-height: 1.5;
+    margin: auto;
+}
+
+.header-container {
+  background-color: white;
+  padding-top: 10px;
+    height: 50px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/******************************* SERVICES ********************************/
+
+.logos {
+    padding: 30px;
+    max-width: 100%;
+}
+
+.services-section {
+    background-color: #333942;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+    padding-bottom: 90px;
+    position: relative;
+}
+
+.services-headline {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.services-container {
+    max-width: 830px;
+    margin: auto;
+}
+
+.service {
+    text-align: center;
+    padding: 30px;
+}
+
+.service-no-display {
+    opacity: 0;
+    -webkit-transform: translateY(15%) translateZ(0);
+    -moz-transform: translateY(15%) translateZ(0);
+    transform: translateY(15%) translateZ(0);
+    -webkit-transition: -webkit-transform 0.4s ease-out, opacity 0.4s ease;
+    -moz-transition: -moz-transform 0.4s ease-out, opacity 0.4s ease;
+    -o-transition: -o-transform 0.4s ease-out, opacity 0.4s ease;
+    transition: transform 0.4s ease-out, opacity 0.4s ease;
+}
+
+.service-display {
+    opacity: 1;
+    -webkit-transform: translateY(0) translateZ(0);
+    -moz-transform: translateY(0) translateZ(0);
+    transform: translateY(0) translateZ(0);
+}
+
+.service-display-mid {
+    transition-delay: 0.15s;
+}
+
+.service-display-last {
+    transition-delay: 0.30s;
+}
+
+.service-icon {
+    background-color: white;
+    border-radius: 50%;
+    height: 5.625em;
+    width: 5.625em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 4px 14px 28px #393939;
+}
+
+.service-head-text {
+    color: white;
+    padding-top: 15px;
+}
+
+.service-subtext {
+    color: white;
+    padding-top: 0;
+}
+
+.service-img {
+    max-width: 42px;
+}
+
+
+/****************************** TEAM ******************************/
+
+ul {
+    list-style-type: none;
+}
+
+
+.team {
+    padding-bottom: 50px;
+    padding-top: 60px;
+}
+
+.team-container {
+    text-align: center;
+    margin: auto;
+    max-width: 920px;
+}
+
+.team-section-header {
+    padding-bottom: 90px;
+}
+
+.team-section-header h2 {
+    background-color: tomato;
+}
+
+.team-member {
+    text-align: center;
+    padding-bottom: 60px;
+    /*border-style: solid;*/
+    padding: 10px;
+
+}
+
+.team-picture {
+  height: 126px;
+  width: 126px;
+}
+
+.team-member-position {
+    color: #747474;
+}
+
+.team-member-text {
+    padding-top: 25px;
+}
+
+.team-social-icon {
+    padding: 7px;
+}
+
+
+/************************** FOOTER **************************/
+
+
+.footer-section {
+  overflow: none;
+  position: relative;
+}
+
+.map {
+  position: absolute;
+  width: 100%;
+  min-height: 500px;
+  opacity: 0.8;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-form {
+    float: right;
+    margin-right: 20%;
+    margin-top: 20px;
+  }
+}
